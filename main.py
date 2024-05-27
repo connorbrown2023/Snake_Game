@@ -1,5 +1,6 @@
 import time
-from turtle import Screen, Turtle
+from turtle import Screen
+from Snake import snake
 
 # Setup UI
 screen = Screen()
@@ -8,24 +9,15 @@ screen.bgcolor("Black")
 screen.title("Snake Game")
 screen.tracer(0)
 
-starting_positions  = [(0,0), (-20, 0), (-40, 0)]
-
-Blocks = []
-
-for position in starting_positions:
-    new_block = Turtle("square")
-    new_block.color("white")
-    new_block.penup()
-    new_block.goto(position)
-    Blocks.append(new_block)
+Snake = snake()
 
 game_is_on = True
-
 while game_is_on:
-    for block in Blocks:
-        block.forward(20)
-        screen.update()
-        time.sleep(1)
+    screen.update()
+    time.sleep(0.1)
+
+    Snake.move()
+
 
 
 screen.exitonclick()

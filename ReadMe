@@ -31,9 +31,10 @@ Left: Move left
 Right: Move right
 
 ##Improvements
+
 Future improvements could include:
 
-Keeping track of the highest score.
-Adding levels with increasing difficulty.
-Introducing obstacles that the snake must avoid.
-Adding sound effects and background music.
+-Keeping track of the highest score.
+-Adding levels with increasing difficulty.
+-Introducing obstacles that the snake must avoid.
+-Adding sound effects and background music.

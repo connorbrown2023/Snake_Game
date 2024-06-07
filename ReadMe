@@ -1,4 +1,4 @@
-Snake Game
+#Snake Game
 
 Description
 This is a recreation of the classic Snake game using Python's Turtle graphics module. The objective is to control a snake to eat food, which makes the snake grow longer. The game ends when the snake collides with itself or the wall.
